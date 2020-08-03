@@ -28,8 +28,15 @@
 // }
 
 // const myTimer = setInterval(count, 1000);
-const moment = require('moment');
+// const moment = require('moment');
 // console.log(moment().format("MMM Do YYYY"));
 
 // use brackets to add custom words
-console.log(moment('10-16-1989').format('dddd [the] Do [of] MMMM [in the year] YYYY'));
+// console.log(moment('10-16-1989').format('dddd [the] Do [of] MMMM [in the year] YYYY'));
+
+
+const emptyTrash = require('empty-trash');
+
+(async () => {
+    await emptyTrash();
+})();
