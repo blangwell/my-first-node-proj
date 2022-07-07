@@ -12,7 +12,7 @@
     "empty-trash": "^3.0.0",
     "funnies": "^2.1.0",
     "hubot-domain-me": "^2.0.3",
-    "moment": "^2.27.0",
+    "moment": "^2.29.4",
     "one-liner-joke": "^1.2.0",
     "random-joke": "^1.0.5"
   }
